@@ -1,0 +1,64 @@
+# ==========================
+# Python
+# ==========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Python Build
+build/
+dist/
+*.egg-info/
+
+# Vector Database
+vector_index/
+
+# SQLite Database
+*.db
+*.sqlite3
+
+# Uploaded Documents
+data/uploads/
+data/processed/
+data/chunks/
+
+# Cache
+.cache/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Uploaded document files
+*.pdf
+*.docx
+
+# Temporary files
+*.tmp
